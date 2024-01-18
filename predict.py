@@ -3,7 +3,7 @@ from keras.layers import Layer
 from keras.layers import Dense, Conv2D, MaxPool2D, Dropout, Flatten
 import keras.backend as K
 import keras
-
+#废弃模型，仅作参考
 # 自注意力层
 class Self_Attention(Layer):
     def __init__(self, dropout_rate=0.0):
